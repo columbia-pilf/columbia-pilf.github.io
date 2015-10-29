@@ -1,1 +1,4 @@
-This is great
+---
+permalink: /index.html
+---
+Hello
