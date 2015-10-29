@@ -6,9 +6,14 @@ This will open a folder. Every file in this folder is a tab.
 The files are in a special format called markdown---the editor will help you with this.
 
 ## Saving your changes
-When you are done making changes, click on the "save" icon to the right. Then email richard.marmorstein@gmail.com to tell him to publish the changes.
+When you are done making changes, click on the "save" icon to the right. 
 
-Probably, the save won't work the first time you try.
+Probably, the save won't work the first time you try. On the bottom right corner, there will be a little green icon about "authorizing github". You should click it.
+
+This will take you to the github.com. You will need to create an account. After you have created the account and authorized "prose.io", then the save button should work.
+
+After you save your change, email richard.marmorstein@gmail.com to tell him to publish the changes.
+
 
 ### How to make a new tab.
 Click 'create a new file'. Then, at the top of the file put something like
