@@ -1,10 +1,14 @@
 ## How to use this prose.io thing.
 
-
 ### Editing a tab
 Click on the folder that says `_tabs.`
 This will open a folder. Every file in this folder is a tab.
+The files are in a special format called markdown---the editor will help you with this.
+
+## Saving your changes
 When you are done making changes, click on the "save" icon to the right. Then email richard.marmorstein@gmail.com to tell him to publish the changes.
+
+Probably, the save won't work the first time you try.
 
 ### How to make a new tab.
 Click 'create a new file'. Then, at the top of the file put something like
@@ -34,4 +38,3 @@ Click on that tab's file, click on the gear wheel to the right, and then click "
 ### How to link to a tab
 
 For example, do [here is the text of the link](/anothertab) will link to the tab in the file "anothertab.md". Links are based off the filename. Make sure to include the initial slash.
-
