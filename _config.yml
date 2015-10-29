@@ -20,10 +20,14 @@ markdown: kramdown
 
 exclude: ['README.md']
 
+defaults:
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: default
+
 collections:
-  pages:
-    output: true
-    permalink: /:path/
-  main_pages:
+  tabs:
     output: true
     permalink: /:path/

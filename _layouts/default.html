@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.path }}/css/style.css" >
+  <link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link
 </head>
 <body>
 
@@ -14,11 +14,15 @@
 </div>
 
 <div id="nav">
-  <a href="{{ site.path }}/index.html">Welcome</a> •
-  <a href="{{ site.path }}/two.html">Page Two</a> •
-  <a href="{{ site.path }}/three.html">Page Three</a> •
-  <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a> •
-  <a href="https://github.com/planetjekyll/jekyll-starter-theme">About</a>
+  {% assign tabs = site.tabs | sort: 'position' %}
+  {% for entry in tabs %}
+    {% if entry.in_tab_list %}
+      <a href = "{{entry.url}}">{{ entry.title }}</a>
+      {% unless forloop.last %}
+        •
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
 </div>
 
 <div id="content">
