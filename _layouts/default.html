@@ -3,26 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link
+  <link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>
+  <style type="text/css">
+    #header {
+        text-align: center;
+        background: #EEE;
+        padding: 10px;
+        margin-bottom: 10px
+    }
+  </style>
 </head>
 <body>
-
-
 <div id="header">
-  <span class='big'>{{ site.title }}</span>
-  <span class='small'>{{ site.subtitle }}</span>
+    <h1>{{ site.title }}</h1>
+    <h5>{{ site.subtitle }}</h5>
 </div>
-
-<div id="nav">
-  {% assign tabs = site.tabs | sort: 'position' %}
-  {% for entry in tabs %}
-    {% if entry.in_tab_list %}
-      <a href = "{{entry.url}}">{{ entry.title }}</a>
-      {% unless forloop.last %}
-        •
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+<div id="nav">{% assign tabs = site.tabs | sort: 'position' %}{% for entry in tabs %}{% if entry.in_tab_list %}
+  <a href = "{{entry.url}}">{{ entry.title }}</a>{% unless forloop.last %} • {% endunless %}{% endif %}{% endfor %}
 </div>
 
 <div id="content">
