@@ -6,11 +6,11 @@ This will open a folder. Every file in this folder is a tab.
 The files are in a special format called markdown---the editor will help you with this.
 
 ## Saving your changes
-When you are done making changes, click on the "save" icon to the right. 
+When you are done making changes, click on the "save" icon to the right. Then click "commit".
 
-Probably, the save won't work the first time you try. On the bottom right corner, there will be a little green icon about "authorizing github". You should click it.
+Probably, it won't work the first time you try. On the bottom right corner, there will be a little green icon about "authorizing github". Click it.
 
-This will take you to the github.com. You will need to create an account. After you have created the account and authorized "prose.io", then the save button should work.
+This will take you to github.com. You will need to create an account. Create it. Then the save button should work.
 
 After you save your change, email richard.marmorstein@gmail.com to tell him to publish the changes.
 
