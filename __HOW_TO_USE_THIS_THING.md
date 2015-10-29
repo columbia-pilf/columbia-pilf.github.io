@@ -1,30 +1,37 @@
 ## How to use this prose.io thing.
 
-You probably want to edit a tab. In that case, click on the folder that says "tabs", and you will see a bunch of files that end in .md. Each of these files corresponds to a tab. Click on them to edit it.
 
+### Editing a tab
+Click on the folder that says `_tabs.`
+This will open a folder. Every file in this folder is a tab.
 When you are done making changes, click on the "save" icon to the right. Then email richard.marmorstein@gmail.com to tell him to publish the changes.
 
 ### How to make a new tab.
 Click 'create a new file'. Then, at the top of the file put something like
 
-```
 ---
-title: TITLE
+title: My New Tab
 position: 50
 in_tab_list: true
 ---
-```
-(do not include the backticks, but do include the hyphens)
+Hello this is my new tab.
+This is stuff I am writing in my new tab.
+New tabs are the greatest thing.
+Ok I am done with the tab.
 
-* The value for "title" will be the label that goes on the tab.
-* The "position" will determine where the tab occurs on the list of tabs. Tabs with smaller values come first in the list.
-* Put `in_tab_list: false` if you do not want it actually to appear in the tab list---if it should be hidden, and only
-accessible by being linked to from other tabs.
-
-Below that, put the content of the tab.
+* Up above the editor, make sure to make the filename something sensible that ends in .md
+* For example `mynewtab.md`
+* Make sure to include the hyphens '---'
+* "title" will be the label that goes on the tab.
+* "position" will determine where the tab occurs on the list of tabs. Tabs with smaller values come first in the list.
+* "in_tab_list" true will ensure it appears on the list of tabs. 
+* "in_tab_list: false" will cause it to be omitted from the tab list---but you can still link to the page from another tab.
 
 ### How to delete a tab.
 
 Click on that tab's file, click on the gear wheel to the right, and then click "delete file."
 
-### How to
+### How to link to a tab
+
+For example, do [here is the text of the link](/anothertab) will link to the tab in the file "anothertab.md". Links are based off the filename. Make sure to include the initial slash.
+
