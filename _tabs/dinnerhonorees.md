@@ -4,12 +4,7 @@
 # The title is used as the label for the tab
 title: Dinner Honorees
 
-# Position is used to control the order the tabs appear
-# in. Tabs with a smaller "position" appear before tabs
-# with a higher position.
-position: 0
-
-# Set to true if this page should not appear in the
+# Set to false if this page should not appear in the
 # list of tabs, but should be accessed only by clicking
 # links from other tabs.
 

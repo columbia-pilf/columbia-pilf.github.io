@@ -9,7 +9,7 @@ title: Get Involved
 # with a higher position.
 position: 20
 
-# Set to true if this page should not appear in the
+# Set to false if this page should not appear in the
 # list of tabs, but should be accessed only by clicking
 # links from other tabs.
 

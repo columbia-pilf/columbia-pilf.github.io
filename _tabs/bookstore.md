@@ -9,7 +9,7 @@ title: Bookstore
 # with a higher position.
 position: 70
 
-# Set to true if this page should not appear in the
+# Set to false if this page should not appear in the
 # list of tabs, but should be accessed only by clicking
 # links from other tabs.
 
@@ -17,7 +17,7 @@ in_tab_list: true
 ---
 # PILF Bookstore
 
-![](bookstore.jpg)
+![](/bookstore.jpg)
 
 PILF operates a used bookstore each semester. All of the money raised from the bookstore goes to the Community Grants and Student Funded Fellowship programs.
 

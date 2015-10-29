@@ -9,7 +9,7 @@ title: Community Grants
 # with a higher position.
 position: 60
 
-# Set to true if this page should not appear in the
+# Set to false if this page should not appear in the
 # list of tabs, but should be accessed only by clicking
 # links from other tabs.
 
@@ -19,7 +19,7 @@ in_tab_list: true
 
 Each year PILF awards three to five grants to not-for-profit organizations that provide legal services to communities in need.  Grant amounts range from $1,000 to $15,000, depending on the availability of funds and the nature of the proposed project. Since its inception in 1980, PILF has provided over $1 million to public interest legal organizations across the country. We are particularly interested in funding innovative projects that would not be undertaken without a grant and in helping established projects that suffer from a funding shortage.  
 
-[Information on Current and Past PILF Grantees.](grantees.html)
+[Information on Current and Past PILF Grantees.](/grantees)
 
 ## 2016-2018 Community Grant Information
 

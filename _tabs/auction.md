@@ -9,7 +9,7 @@ title: Auction
 # with a higher position.
 position: 50
 
-# Set to true if this page should not appear in the
+# Set to false if this page should not appear in the
 # list of tabs, but should be accessed only by clicking
 # links from other tabs.
 
@@ -32,13 +32,13 @@ Please contact [Angelica Tillander](mailto:pilfauction2016@gmail.com) and [Eliza
 
 ## Sponsors and Donors
 
-Click [here](auction2014.html) to see last year's list of sponsors and donors.
+Click [here](/auction2014) to see last year's list of sponsors and donors.
 
 Donations are always needed and welcome!
 
 ## What Should I Donate?
 
-Every year, people donate a wide variety of items. Click [here](PILF_Auction_Donation_Inspiration_2015.pdf) to see just a few examples.
+Every year, people donate a wide variety of items. Click [here](/PILF_Auction_Donation_Inspiration_2015.pdf) to see just a few examples.
 
 ## Who attends the Bid For Justice Auction?
 
